@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJTApplicationModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GJTApplicationModule.'
+  s.version          = '0.1.1'
+  s.summary          = 'Gojito 的启动器业务模块'
+  s.platform         = :ios
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                     Gojito 的启动器业务模块,提供启动过程中加载的类以及方法等功能。
                        DESC
 
   s.homepage         = 'https://github.com/zjh171/GJTApplicationModule'
@@ -27,7 +28,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'zjh171' => 'zjh171@qq.com' }
   s.source           = { :git => 'https://github.com/zjh171/GJTApplicationModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.static_framework = true
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GJTApplicationModule/Classes/**/*'
