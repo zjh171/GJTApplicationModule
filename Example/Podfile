@@ -1,0 +1,12 @@
+
+platform :ios, '9.0'
+
+target 'GJTApplicationModule_Example' do
+  pod 'GJTApplicationModule', :path => '../'
+
+  target 'GJTApplicationModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

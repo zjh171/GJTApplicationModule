@@ -1,0 +1,23 @@
+PODS:
+  - GJTAppLauncher (0.1.2)
+  - GJTApplicationModule (0.1.0):
+    - GJTAppLauncher
+
+DEPENDENCIES:
+  - GJTApplicationModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GJTAppLauncher
+
+EXTERNAL SOURCES:
+  GJTApplicationModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJTAppLauncher: 5a0902092b7a23a143966db978265d1d6ade308a
+  GJTApplicationModule: 61084535983df5ef685c4e992b67ba6f755e919b
+
+PODFILE CHECKSUM: 5ec2597243af4eac7b874766afbf5b53335fbae4
+
+COCOAPODS: 1.10.1

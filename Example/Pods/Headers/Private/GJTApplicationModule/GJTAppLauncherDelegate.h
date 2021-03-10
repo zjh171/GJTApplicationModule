@@ -1,0 +1,1 @@
+../../../../../GJTApplicationModule/Classes/GJTAppLauncherDelegate.h

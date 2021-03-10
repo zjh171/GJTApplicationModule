@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0785BE550D56A8313BAC0B0A45D110D2 /* GJTAppLauncherDelegate+TailTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F772ACA98687C9AE98A07830C1CE10 /* GJTAppLauncherDelegate+TailTask.m */; };
+		0B7631F828D3CE9125B3E6593466732E /* GJTAppLauncherAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 448F404A572C205BA9B5B6F46572A640 /* GJTAppLauncherAnnotation.m */; };
+		12C4E2435500F51C15E3AC2A5D5F29E7 /* GJTAppHPLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = 56180B643BFEC02842519CCECC0F118B /* GJTAppHPLauncher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		161B83650732F6DEA8369EB4F04106AC /* GJTRuleSyncChainMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BA692EB90BFB21E8FD67FBF40E2F71 /* GJTRuleSyncChainMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17BD50F823486AE41A6ACEB4F3BC1B9F /* GJTAppLauncherItems.h in Headers */ = {isa = PBXBuildFile; fileRef = F73CC7E2A05300926F5034C23F904580 /* GJTAppLauncherItems.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28D13F0F6872B7A16DA2FE93C6B88924 /* Pods-GJTApplicationModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48546D31B973759E4C9978268A9B4C /* Pods-GJTApplicationModule_Example-dummy.m */; };
+		2CEB6EDB28A1E707CADF018396C46D1B /* GJTAppHPLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB23A9A9BB3D507E4800B415DF34781 /* GJTAppHPLauncher.m */; };
+		349AAD9A880CD3A28FD0491D5EA0AAA6 /* GJTAppLauncher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C1B3CAF92987654E84E7B32C53D4E /* GJTAppLauncher-dummy.m */; };
+		4C2BDF0D7DB6CA273530F76DACF5B35C /* GJTRuleSyncChain.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE3170B22D85BA378006E2C84794B5 /* GJTRuleSyncChain.m */; };
+		75C50CAADD3794FAA5BDBBBB2760A7A1 /* GJTAppLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = B544CB93DB12064C80AD096B7BB5E4B4 /* GJTAppLauncher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77318362307628BC24FA13346B047CEC /* GJTAppLauncherDelegate+HeadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F767CE7A2CB99A032D95BDA3A5DA253B /* GJTAppLauncherDelegate+HeadTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88B7B8DF1EF9A69A388ECDE8A25B45F8 /* GJTAppLauncherDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEECC657830B19370CF2F11269C2114 /* GJTAppLauncherDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94F10D726539D6C06120E9F804D2ADA1 /* GJTAppLauncherDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A119DF4E3D6BBA95769BFB967DA46E1 /* GJTAppLauncherDelegate.m */; };
+		A3D609AC388156220D10EC44AA2234BE /* GJTRuleSyncChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1D1764A1DE4C44FC339CFC7879C402 /* GJTRuleSyncChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8737ACBB092E2C60646E178C727EF44 /* GJTAppLauncherItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4FE7B7A91D8061CB57E6A84D7987A /* GJTAppLauncherItems.m */; };
+		BE18DA4F05A2B80CE2C71F248D48540E /* GJTApplicationModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60127DE4E999D8D316B21E94A15AA37C /* GJTApplicationModule-dummy.m */; };
+		C3B7E611C570A0A30F05E42EEE52B726 /* GJTApplicationModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FF6D307D80B531CFD0FB83688F4FFC /* GJTApplicationModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF4DD61B56FF33802787239CA1371B53 /* GJTRuleAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC7209BCB2863952A41D673A19EE2EF /* GJTRuleAtom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D504C015DFBDCB8F0DB04B0E941B3F89 /* GJTAppLauncherDelegate+TailTask.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB3611DC8330CD71DADCE38AC495073 /* GJTAppLauncherDelegate+TailTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D921285C5C88C4601B4A9C131ABF8A11 /* Pods-GJTApplicationModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCD7328E1CD8B69B068A3B9BB98F66 /* Pods-GJTApplicationModule_Tests-dummy.m */; };
+		E5D254301BCF7BC613C4AD0514138459 /* GJTRuleSyncChain+RuleSyncAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 300171DB959AA36CA33467B82AB9A564 /* GJTRuleSyncChain+RuleSyncAtom.m */; };
+		E8475944225FF728D4C8FDE2355ADB81 /* GJTRuleSyncChain+RuleSyncAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = D3ABA659A046816049D7A8D2A2BA199D /* GJTRuleSyncChain+RuleSyncAtom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED3BC310A10FB762EE520530C9EE9950 /* GJTAppLauncherAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF091A00F2F7E1E7B71825303E3B512 /* GJTAppLauncherAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFCE3335A7AACE6F215C1CC03151D900 /* GJTAppLauncherDelegate+HeadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FFF09676B8D75F955B2555253DFC7A /* GJTAppLauncherDelegate+HeadTask.m */; };
+		FECECAD66498CB5456791AD60050BB6E /* GJTRuleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 79849F528F0F0D20810E4E637DA8ACFB /* GJTRuleAtom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F8C6E6A378DB33276434838DCDFA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409F6171F94B4B0582ABF5765E0557BC;
+			remoteInfo = GJTAppLauncher;
+		};
+		70009032FAF00C4AAED9C2D70E6FD7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D580861B6B2E5C3C060467789834808;
+			remoteInfo = GJTApplicationModule;
+		};
+		B216BF02CA50558C956FFFDDCB0DF593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409F6171F94B4B0582ABF5765E0557BC;
+			remoteInfo = GJTAppLauncher;
+		};
+		C0F8FA26C4456D1D7BB5E65AF8D2935A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A5186124D1C9C870F4DEFD5582012E;
+			remoteInfo = "Pods-GJTApplicationModule_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D47C3DDB02CED5710EA3525FE50B64 /* GJTAppLauncher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTAppLauncher-prefix.pch"; sourceTree = "<group>"; };
+		11BA692EB90BFB21E8FD67FBF40E2F71 /* GJTRuleSyncChainMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTRuleSyncChainMacro.h; path = GJTAppLauncher/Classes/Chain/GJTRuleSyncChainMacro.h; sourceTree = "<group>"; };
+		1715BDA339E0E0B49166F9EF6BAD6AE2 /* libGJTAppLauncher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGJTAppLauncher.a; path = libGJTAppLauncher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABCD7328E1CD8B69B068A3B9BB98F66 /* Pods-GJTApplicationModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTApplicationModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FF2FF851A68E2DA6741061CB1FAA41E /* Pods-GJTApplicationModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTApplicationModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C1C1B3CAF92987654E84E7B32C53D4E /* GJTAppLauncher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTAppLauncher-dummy.m"; sourceTree = "<group>"; };
+		2EF4FE7B7A91D8061CB57E6A84D7987A /* GJTAppLauncherItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTAppLauncherItems.m; path = GJTAppLauncher/Classes/Launcher/GJTAppLauncherItems.m; sourceTree = "<group>"; };
+		300171DB959AA36CA33467B82AB9A564 /* GJTRuleSyncChain+RuleSyncAtom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GJTRuleSyncChain+RuleSyncAtom.m"; path = "GJTAppLauncher/Classes/Chain/GJTRuleSyncChain+RuleSyncAtom.m"; sourceTree = "<group>"; };
+		3B5B0857CCE05DB47FC43E381974A858 /* GJTApplicationModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTApplicationModule.debug.xcconfig; sourceTree = "<group>"; };
+		3CF091A00F2F7E1E7B71825303E3B512 /* GJTAppLauncherAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppLauncherAnnotation.h; path = GJTAppLauncher/Classes/Anotation/GJTAppLauncherAnnotation.h; sourceTree = "<group>"; };
+		3D49E24F2065E253210DA8415F2BAD87 /* libGJTApplicationModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGJTApplicationModule.a; path = libGJTApplicationModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB1B55B4677149C73F15A93B663691B /* libPods-GJTApplicationModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GJTApplicationModule_Tests.a"; path = "libPods-GJTApplicationModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41369B870107BDB76F16A5713D21CCDC /* Pods-GJTApplicationModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTApplicationModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		447BB2DC1B0817A23219979332A04972 /* GJTAppLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.release.xcconfig; sourceTree = "<group>"; };
+		448F404A572C205BA9B5B6F46572A640 /* GJTAppLauncherAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTAppLauncherAnnotation.m; path = GJTAppLauncher/Classes/Anotation/GJTAppLauncherAnnotation.m; sourceTree = "<group>"; };
+		4E91E1B61AF17063E06DFC970516EF3B /* Pods-GJTApplicationModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTApplicationModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F48546D31B973759E4C9978268A9B4C /* Pods-GJTApplicationModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTApplicationModule_Example-dummy.m"; sourceTree = "<group>"; };
+		50F772ACA98687C9AE98A07830C1CE10 /* GJTAppLauncherDelegate+TailTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GJTAppLauncherDelegate+TailTask.m"; path = "GJTApplicationModule/Classes/GJTAppLauncherDelegate+TailTask.m"; sourceTree = "<group>"; };
+		56180B643BFEC02842519CCECC0F118B /* GJTAppHPLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppHPLauncher.h; path = GJTAppLauncher/Classes/Launcher/GJTAppHPLauncher.h; sourceTree = "<group>"; };
+		599B8C4E4E6E38A868DB477C5B62B649 /* GJTApplicationModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTApplicationModule-prefix.pch"; sourceTree = "<group>"; };
+		5FC7209BCB2863952A41D673A19EE2EF /* GJTRuleAtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTRuleAtom.h; path = GJTAppLauncher/Classes/Chain/GJTRuleAtom.h; sourceTree = "<group>"; };
+		60127DE4E999D8D316B21E94A15AA37C /* GJTApplicationModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTApplicationModule-dummy.m"; sourceTree = "<group>"; };
+		61CD52B5A3A8C05470625D2B84849607 /* libPods-GJTApplicationModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GJTApplicationModule_Example.a"; path = "libPods-GJTApplicationModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79849F528F0F0D20810E4E637DA8ACFB /* GJTRuleAtom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTRuleAtom.m; path = GJTAppLauncher/Classes/Chain/GJTRuleAtom.m; sourceTree = "<group>"; };
+		7A119DF4E3D6BBA95769BFB967DA46E1 /* GJTAppLauncherDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTAppLauncherDelegate.m; path = GJTApplicationModule/Classes/GJTAppLauncherDelegate.m; sourceTree = "<group>"; };
+		7E25A54EBC285C2ED1778BFAF9C884D5 /* Pods-GJTApplicationModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTApplicationModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		864E1AB2F0A4FC1BCE32219115E97F67 /* GJTAppLauncher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.debug.xcconfig; sourceTree = "<group>"; };
+		8BD0EED797EB792CDDEA0C96ABC63DA9 /* Pods-GJTApplicationModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTApplicationModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C66A56630996B4A2B7F4CFEB555BDC0 /* Pods-GJTApplicationModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTApplicationModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95FF6D307D80B531CFD0FB83688F4FFC /* GJTApplicationModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTApplicationModule.h; path = GJTApplicationModule/Classes/GJTApplicationModule.h; sourceTree = "<group>"; };
+		9A30DE5203FA61F14E9AF8F9CC98451C /* Pods-GJTApplicationModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTApplicationModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAB23A9A9BB3D507E4800B415DF34781 /* GJTAppHPLauncher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTAppHPLauncher.m; path = GJTAppLauncher/Classes/Launcher/GJTAppHPLauncher.m; sourceTree = "<group>"; };
+		ADCE3170B22D85BA378006E2C84794B5 /* GJTRuleSyncChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTRuleSyncChain.m; path = GJTAppLauncher/Classes/Chain/GJTRuleSyncChain.m; sourceTree = "<group>"; };
+		B544CB93DB12064C80AD096B7BB5E4B4 /* GJTAppLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppLauncher.h; path = GJTAppLauncher/Classes/GJTAppLauncher.h; sourceTree = "<group>"; };
+		B63931F4ABA226681C0919CF6D7F88DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BEEECC657830B19370CF2F11269C2114 /* GJTAppLauncherDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppLauncherDelegate.h; path = GJTApplicationModule/Classes/GJTAppLauncherDelegate.h; sourceTree = "<group>"; };
+		D1FFF09676B8D75F955B2555253DFC7A /* GJTAppLauncherDelegate+HeadTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GJTAppLauncherDelegate+HeadTask.m"; path = "GJTApplicationModule/Classes/GJTAppLauncherDelegate+HeadTask.m"; sourceTree = "<group>"; };
+		D3ABA659A046816049D7A8D2A2BA199D /* GJTRuleSyncChain+RuleSyncAtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GJTRuleSyncChain+RuleSyncAtom.h"; path = "GJTAppLauncher/Classes/Chain/GJTRuleSyncChain+RuleSyncAtom.h"; sourceTree = "<group>"; };
+		DB1D1764A1DE4C44FC339CFC7879C402 /* GJTRuleSyncChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTRuleSyncChain.h; path = GJTAppLauncher/Classes/Chain/GJTRuleSyncChain.h; sourceTree = "<group>"; };
+		E278687850FEEC0BEEAF0D79FF279394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EA64089444EA6A91C645F1122516F70B /* GJTApplicationModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJTApplicationModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F19CFCD39C73CFE6DE0CBBDA0FED0584 /* Pods-GJTApplicationModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTApplicationModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F73CC7E2A05300926F5034C23F904580 /* GJTAppLauncherItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppLauncherItems.h; path = GJTAppLauncher/Classes/Launcher/GJTAppLauncherItems.h; sourceTree = "<group>"; };
+		F767CE7A2CB99A032D95BDA3A5DA253B /* GJTAppLauncherDelegate+HeadTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GJTAppLauncherDelegate+HeadTask.h"; path = "GJTApplicationModule/Classes/GJTAppLauncherDelegate+HeadTask.h"; sourceTree = "<group>"; };
+		FCC7A4B6719A6E2BE27D139D18DA7C63 /* GJTApplicationModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTApplicationModule.release.xcconfig; sourceTree = "<group>"; };
+		FDB3611DC8330CD71DADCE38AC495073 /* GJTAppLauncherDelegate+TailTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GJTAppLauncherDelegate+TailTask.h"; path = "GJTApplicationModule/Classes/GJTAppLauncherDelegate+TailTask.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD787FC206CB5353CC57A521467EFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706AE05679B2102E45CDF10640ECF828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8009355A878D7E83F732594152315914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48EBEEA205D9E11CB6DDE05961D14CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E00E223B5E15D5EC819B27E782EE2E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA64089444EA6A91C645F1122516F70B /* GJTApplicationModule.podspec */,
+				E278687850FEEC0BEEAF0D79FF279394 /* LICENSE */,
+				B63931F4ABA226681C0919CF6D7F88DB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		255BF88D3BDFE419EF5755A5641F644D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53A747B46EE72E0EC7FA767F56CD04E6 /* Pods-GJTApplicationModule_Example */,
+				AB6CA7714EA6800F35522452113384B1 /* Pods-GJTApplicationModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50E118696E8C4D2096BE503CF5D23555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1715BDA339E0E0B49166F9EF6BAD6AE2 /* libGJTAppLauncher.a */,
+				3D49E24F2065E253210DA8415F2BAD87 /* libGJTApplicationModule.a */,
+				61CD52B5A3A8C05470625D2B84849607 /* libPods-GJTApplicationModule_Example.a */,
+				3FB1B55B4677149C73F15A93B663691B /* libPods-GJTApplicationModule_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53A747B46EE72E0EC7FA767F56CD04E6 /* Pods-GJTApplicationModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C66A56630996B4A2B7F4CFEB555BDC0 /* Pods-GJTApplicationModule_Example-acknowledgements.markdown */,
+				7E25A54EBC285C2ED1778BFAF9C884D5 /* Pods-GJTApplicationModule_Example-acknowledgements.plist */,
+				4F48546D31B973759E4C9978268A9B4C /* Pods-GJTApplicationModule_Example-dummy.m */,
+				9A30DE5203FA61F14E9AF8F9CC98451C /* Pods-GJTApplicationModule_Example.debug.xcconfig */,
+				1FF2FF851A68E2DA6741061CB1FAA41E /* Pods-GJTApplicationModule_Example.release.xcconfig */,
+			);
+			name = "Pods-GJTApplicationModule_Example";
+			path = "Target Support Files/Pods-GJTApplicationModule_Example";
+			sourceTree = "<group>";
+		};
+		5CE6CA73E390CE36A71CB0D26A146B82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60127DE4E999D8D316B21E94A15AA37C /* GJTApplicationModule-dummy.m */,
+				599B8C4E4E6E38A868DB477C5B62B649 /* GJTApplicationModule-prefix.pch */,
+				3B5B0857CCE05DB47FC43E381974A858 /* GJTApplicationModule.debug.xcconfig */,
+				FCC7A4B6719A6E2BE27D139D18DA7C63 /* GJTApplicationModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GJTApplicationModule";
+			sourceTree = "<group>";
+		};
+		64FE41826ADC5DC2BADE0F00FD58361F /* GJTAppLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				56180B643BFEC02842519CCECC0F118B /* GJTAppHPLauncher.h */,
+				AAB23A9A9BB3D507E4800B415DF34781 /* GJTAppHPLauncher.m */,
+				B544CB93DB12064C80AD096B7BB5E4B4 /* GJTAppLauncher.h */,
+				3CF091A00F2F7E1E7B71825303E3B512 /* GJTAppLauncherAnnotation.h */,
+				448F404A572C205BA9B5B6F46572A640 /* GJTAppLauncherAnnotation.m */,
+				F73CC7E2A05300926F5034C23F904580 /* GJTAppLauncherItems.h */,
+				2EF4FE7B7A91D8061CB57E6A84D7987A /* GJTAppLauncherItems.m */,
+				5FC7209BCB2863952A41D673A19EE2EF /* GJTRuleAtom.h */,
+				79849F528F0F0D20810E4E637DA8ACFB /* GJTRuleAtom.m */,
+				DB1D1764A1DE4C44FC339CFC7879C402 /* GJTRuleSyncChain.h */,
+				ADCE3170B22D85BA378006E2C84794B5 /* GJTRuleSyncChain.m */,
+				D3ABA659A046816049D7A8D2A2BA199D /* GJTRuleSyncChain+RuleSyncAtom.h */,
+				300171DB959AA36CA33467B82AB9A564 /* GJTRuleSyncChain+RuleSyncAtom.m */,
+				11BA692EB90BFB21E8FD67FBF40E2F71 /* GJTRuleSyncChainMacro.h */,
+				E099724D190E41DDD00DE7D8E7F9DD1E /* Support Files */,
+			);
+			name = GJTAppLauncher;
+			path = GJTAppLauncher;
+			sourceTree = "<group>";
+		};
+		88464010809B24419296E3EDFC41D158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64FE41826ADC5DC2BADE0F00FD58361F /* GJTAppLauncher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9671204755982AE7E7F89D5D472EFD95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F66DE600DE66B9F5ACF17E89283C44F0 /* GJTApplicationModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB6CA7714EA6800F35522452113384B1 /* Pods-GJTApplicationModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0EED797EB792CDDEA0C96ABC63DA9 /* Pods-GJTApplicationModule_Tests-acknowledgements.markdown */,
+				41369B870107BDB76F16A5713D21CCDC /* Pods-GJTApplicationModule_Tests-acknowledgements.plist */,
+				1ABCD7328E1CD8B69B068A3B9BB98F66 /* Pods-GJTApplicationModule_Tests-dummy.m */,
+				4E91E1B61AF17063E06DFC970516EF3B /* Pods-GJTApplicationModule_Tests.debug.xcconfig */,
+				F19CFCD39C73CFE6DE0CBBDA0FED0584 /* Pods-GJTApplicationModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-GJTApplicationModule_Tests";
+			path = "Target Support Files/Pods-GJTApplicationModule_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9671204755982AE7E7F89D5D472EFD95 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				88464010809B24419296E3EDFC41D158 /* Pods */,
+				50E118696E8C4D2096BE503CF5D23555 /* Products */,
+				255BF88D3BDFE419EF5755A5641F644D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E099724D190E41DDD00DE7D8E7F9DD1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C1C1B3CAF92987654E84E7B32C53D4E /* GJTAppLauncher-dummy.m */,
+				07D47C3DDB02CED5710EA3525FE50B64 /* GJTAppLauncher-prefix.pch */,
+				864E1AB2F0A4FC1BCE32219115E97F67 /* GJTAppLauncher.debug.xcconfig */,
+				447BB2DC1B0817A23219979332A04972 /* GJTAppLauncher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GJTAppLauncher";
+			sourceTree = "<group>";
+		};
+		F66DE600DE66B9F5ACF17E89283C44F0 /* GJTApplicationModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEEECC657830B19370CF2F11269C2114 /* GJTAppLauncherDelegate.h */,
+				7A119DF4E3D6BBA95769BFB967DA46E1 /* GJTAppLauncherDelegate.m */,
+				F767CE7A2CB99A032D95BDA3A5DA253B /* GJTAppLauncherDelegate+HeadTask.h */,
+				D1FFF09676B8D75F955B2555253DFC7A /* GJTAppLauncherDelegate+HeadTask.m */,
+				FDB3611DC8330CD71DADCE38AC495073 /* GJTAppLauncherDelegate+TailTask.h */,
+				50F772ACA98687C9AE98A07830C1CE10 /* GJTAppLauncherDelegate+TailTask.m */,
+				95FF6D307D80B531CFD0FB83688F4FFC /* GJTApplicationModule.h */,
+				0E00E223B5E15D5EC819B27E782EE2E1 /* Pod */,
+				5CE6CA73E390CE36A71CB0D26A146B82 /* Support Files */,
+			);
+			name = GJTApplicationModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E764EE2793F3AEB51A05ADC30725213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393113A0C0C8B6290BBE70F747D27123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77318362307628BC24FA13346B047CEC /* GJTAppLauncherDelegate+HeadTask.h in Headers */,
+				D504C015DFBDCB8F0DB04B0E941B3F89 /* GJTAppLauncherDelegate+TailTask.h in Headers */,
+				88B7B8DF1EF9A69A388ECDE8A25B45F8 /* GJTAppLauncherDelegate.h in Headers */,
+				C3B7E611C570A0A30F05E42EEE52B726 /* GJTApplicationModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0D5D29B5C57CB3987C2EA78649B2DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4E2435500F51C15E3AC2A5D5F29E7 /* GJTAppHPLauncher.h in Headers */,
+				75C50CAADD3794FAA5BDBBBB2760A7A1 /* GJTAppLauncher.h in Headers */,
+				ED3BC310A10FB762EE520530C9EE9950 /* GJTAppLauncherAnnotation.h in Headers */,
+				17BD50F823486AE41A6ACEB4F3BC1B9F /* GJTAppLauncherItems.h in Headers */,
+				CF4DD61B56FF33802787239CA1371B53 /* GJTRuleAtom.h in Headers */,
+				E8475944225FF728D4C8FDE2355ADB81 /* GJTRuleSyncChain+RuleSyncAtom.h in Headers */,
+				A3D609AC388156220D10EC44AA2234BE /* GJTRuleSyncChain.h in Headers */,
+				161B83650732F6DEA8369EB4F04106AC /* GJTRuleSyncChainMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D872DF74C43DF62D7B84352EEE6BA23D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D580861B6B2E5C3C060467789834808 /* GJTApplicationModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32B464867FC28E9988FF297F24CE045 /* Build configuration list for PBXNativeTarget "GJTApplicationModule" */;
+			buildPhases = (
+				393113A0C0C8B6290BBE70F747D27123 /* Headers */,
+				72A97CA3CBBBC5D0979B2DFF27D10371 /* Sources */,
+				706AE05679B2102E45CDF10640ECF828 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F948C27FB0436A9351BDAE71AA1282A1 /* PBXTargetDependency */,
+			);
+			name = GJTApplicationModule;
+			productName = GJTApplicationModule;
+			productReference = 3D49E24F2065E253210DA8415F2BAD87 /* libGJTApplicationModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC45F3037777646EC53749A82A163F7A /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */;
+			buildPhases = (
+				CF0D5D29B5C57CB3987C2EA78649B2DD /* Headers */,
+				FBE16E3FF905D16FE7F6EFA559FE95B8 /* Sources */,
+				E48EBEEA205D9E11CB6DDE05961D14CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJTAppLauncher;
+			productName = GJTAppLauncher;
+			productReference = 1715BDA339E0E0B49166F9EF6BAD6AE2 /* libGJTAppLauncher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2A5186124D1C9C870F4DEFD5582012E /* Pods-GJTApplicationModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510CCDDA2B9DB89E463B0330F2D32478 /* Build configuration list for PBXNativeTarget "Pods-GJTApplicationModule_Example" */;
+			buildPhases = (
+				2E764EE2793F3AEB51A05ADC30725213 /* Headers */,
+				BDC1B8CF665AA60481EC5835567AD9F9 /* Sources */,
+				8009355A878D7E83F732594152315914 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE3DB01870298DA8BC8DD06C62725B8 /* PBXTargetDependency */,
+				8ACCDBAF736CEDFF3FA1DD00F664BFD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GJTApplicationModule_Example";
+			productName = "Pods-GJTApplicationModule_Example";
+			productReference = 61CD52B5A3A8C05470625D2B84849607 /* libPods-GJTApplicationModule_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CFE9B765BDAC0DC6C7375B8A7343861B /* Pods-GJTApplicationModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5613E9AF3561F9C3F82C849D4CC77A7 /* Build configuration list for PBXNativeTarget "Pods-GJTApplicationModule_Tests" */;
+			buildPhases = (
+				D872DF74C43DF62D7B84352EEE6BA23D /* Headers */,
+				60AF88A37DCA02D2AAFFE8362077BD96 /* Sources */,
+				0DD787FC206CB5353CC57A521467EFC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A967C8C76CAFED16982A438BBDAE779F /* PBXTargetDependency */,
+			);
+			name = "Pods-GJTApplicationModule_Tests";
+			productName = "Pods-GJTApplicationModule_Tests";
+			productReference = 3FB1B55B4677149C73F15A93B663691B /* libPods-GJTApplicationModule_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50E118696E8C4D2096BE503CF5D23555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */,
+				3D580861B6B2E5C3C060467789834808 /* GJTApplicationModule */,
+				A2A5186124D1C9C870F4DEFD5582012E /* Pods-GJTApplicationModule_Example */,
+				CFE9B765BDAC0DC6C7375B8A7343861B /* Pods-GJTApplicationModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60AF88A37DCA02D2AAFFE8362077BD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921285C5C88C4601B4A9C131ABF8A11 /* Pods-GJTApplicationModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A97CA3CBBBC5D0979B2DFF27D10371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE3335A7AACE6F215C1CC03151D900 /* GJTAppLauncherDelegate+HeadTask.m in Sources */,
+				0785BE550D56A8313BAC0B0A45D110D2 /* GJTAppLauncherDelegate+TailTask.m in Sources */,
+				94F10D726539D6C06120E9F804D2ADA1 /* GJTAppLauncherDelegate.m in Sources */,
+				BE18DA4F05A2B80CE2C71F248D48540E /* GJTApplicationModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC1B8CF665AA60481EC5835567AD9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D13F0F6872B7A16DA2FE93C6B88924 /* Pods-GJTApplicationModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE16E3FF905D16FE7F6EFA559FE95B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEB6EDB28A1E707CADF018396C46D1B /* GJTAppHPLauncher.m in Sources */,
+				349AAD9A880CD3A28FD0491D5EA0AAA6 /* GJTAppLauncher-dummy.m in Sources */,
+				0B7631F828D3CE9125B3E6593466732E /* GJTAppLauncherAnnotation.m in Sources */,
+				B8737ACBB092E2C60646E178C727EF44 /* GJTAppLauncherItems.m in Sources */,
+				FECECAD66498CB5456791AD60050BB6E /* GJTRuleAtom.m in Sources */,
+				E5D254301BCF7BC613C4AD0514138459 /* GJTRuleSyncChain+RuleSyncAtom.m in Sources */,
+				4C2BDF0D7DB6CA273530F76DACF5B35C /* GJTRuleSyncChain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ACCDBAF736CEDFF3FA1DD00F664BFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJTApplicationModule;
+			target = 3D580861B6B2E5C3C060467789834808 /* GJTApplicationModule */;
+			targetProxy = 70009032FAF00C4AAED9C2D70E6FD7C3 /* PBXContainerItemProxy */;
+		};
+		A967C8C76CAFED16982A438BBDAE779F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GJTApplicationModule_Example";
+			target = A2A5186124D1C9C870F4DEFD5582012E /* Pods-GJTApplicationModule_Example */;
+			targetProxy = C0F8FA26C4456D1D7BB5E65AF8D2935A /* PBXContainerItemProxy */;
+		};
+		DDE3DB01870298DA8BC8DD06C62725B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJTAppLauncher;
+			target = 409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */;
+			targetProxy = B216BF02CA50558C956FFFDDCB0DF593 /* PBXContainerItemProxy */;
+		};
+		F948C27FB0436A9351BDAE71AA1282A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJTAppLauncher;
+			target = 409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */;
+			targetProxy = 58F8C6E6A378DB33276434838DCDFA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14AE058A056B768F65213080E1B6CDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E91E1B61AF17063E06DFC970516EF3B /* Pods-GJTApplicationModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0EB2AA53F1CA7AC6183C2BFB8D7E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447BB2DC1B0817A23219979332A04972 /* GJTAppLauncher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GJTAppLauncher/GJTAppLauncher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GJTAppLauncher;
+				PRODUCT_NAME = GJTAppLauncher;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8150367D52B6C7360E75E643C0EFD00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864E1AB2F0A4FC1BCE32219115E97F67 /* GJTAppLauncher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GJTAppLauncher/GJTAppLauncher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GJTAppLauncher;
+				PRODUCT_NAME = GJTAppLauncher;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B6FA24C063F4E157C62FE5A10FC3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A30DE5203FA61F14E9AF8F9CC98451C /* Pods-GJTApplicationModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		992F2816BAE2C93602B93B4DBBFEBDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF2FF851A68E2DA6741061CB1FAA41E /* Pods-GJTApplicationModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13A3134EAC849D95EAC5527AC923D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC7A4B6719A6E2BE27D139D18DA7C63 /* GJTApplicationModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GJTApplicationModule/GJTApplicationModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GJTApplicationModule;
+				PRODUCT_NAME = GJTApplicationModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0BE932752B04168B3398E3D91B141E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19CFCD39C73CFE6DE0CBBDA0FED0584 /* Pods-GJTApplicationModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4663695BF421EFE23E2399129F56B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5B0857CCE05DB47FC43E381974A858 /* GJTApplicationModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GJTApplicationModule/GJTApplicationModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GJTApplicationModule;
+				PRODUCT_NAME = GJTApplicationModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510CCDDA2B9DB89E463B0330F2D32478 /* Build configuration list for PBXNativeTarget "Pods-GJTApplicationModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6FA24C063F4E157C62FE5A10FC3418 /* Debug */,
+				992F2816BAE2C93602B93B4DBBFEBDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32B464867FC28E9988FF297F24CE045 /* Build configuration list for PBXNativeTarget "GJTApplicationModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4663695BF421EFE23E2399129F56B65 /* Debug */,
+				A13A3134EAC849D95EAC5527AC923D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC45F3037777646EC53749A82A163F7A /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8150367D52B6C7360E75E643C0EFD00D /* Debug */,
+				1A0EB2AA53F1CA7AC6183C2BFB8D7E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5613E9AF3561F9C3F82C849D4CC77A7 /* Build configuration list for PBXNativeTarget "Pods-GJTApplicationModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE058A056B768F65213080E1B6CDB5 /* Debug */,
+				D0BE932752B04168B3398E3D91B141E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
