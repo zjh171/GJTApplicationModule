@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJTApplicationModule'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Gojito 的启动器业务模块'
   s.platform         = :ios
 
@@ -39,5 +39,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'GJTAppLauncher'
+  s.dependency 'GJTAppLauncher'
+  s.dependency 'GJTMvvmKit'
 end
