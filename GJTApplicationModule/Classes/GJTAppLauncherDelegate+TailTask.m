@@ -7,7 +7,7 @@
 
 #import "GJTAppLauncherDelegate+TailTask.h"
 #import <GJTAppLauncher/GJTAppLauncher.h>
-#import <GJTMvvmKit/GJTMvvmKit.h>
+#import <GJTGojitoMvvmKit/GJTGojitoMvvmKit.h>
 
 @class GJTMineViewController;
 
@@ -19,11 +19,15 @@
 
 +(void) setupHomeViewController {
     
+    Class homeTargetClass = NSClassFromString(@"GJTHomeViewController");
+    id homeVC = [[homeTargetClass alloc] init];
+    GJTNavigationController *homeNavc1 = [[GJTNavigationController alloc] initWithRootViewController:homeVC];
+    
     Class targetClass = NSClassFromString(@"GJTMineViewController");
     id mineVC = [[targetClass alloc] init];
     GJTNavigationController *navc4 = [[GJTNavigationController alloc] initWithRootViewController:mineVC];
     UITabBarController *tabController = [[UITabBarController alloc] init];
-    tabController.viewControllers = @[navc4];
+    tabController.viewControllers = @[homeNavc1,navc4];
 
     UIWindow *rootWindow = ((GJTAppLauncherDelegate *)([UIApplication sharedApplication].delegate)).window;
     rootWindow.rootViewController = tabController;
