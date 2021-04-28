@@ -1,6 +1,0 @@
-framework module GJTApplicationModule {
-  umbrella header "GJTApplicationModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

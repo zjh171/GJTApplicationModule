@@ -14,7 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GJTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GJTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GJTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GJTViewController.m */; };
+		6003F5A7195388D20070C39A /* GJTAPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GJTAPPViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,9 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14401BA863FB943B605A3223 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		27016AD8891FF8F28CD50A7C /* GJTApplicationModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GJTApplicationModule.podspec; path = ../GJTApplicationModule.podspec; sourceTree = "<group>"; };
-		4A92965415A5CA46A8F8CF2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GJTApplicationModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJTApplicationModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +47,8 @@
 		6003F59B195388D20070C39A /* GJTApplicationModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GJTApplicationModule-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GJTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GJTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GJTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GJTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* GJTAPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTAPPViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* GJTAPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTAPPViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GJTApplicationModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJTApplicationModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,7 +95,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for GJTApplicationModule */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -135,8 +131,8 @@
 				6003F59C195388D20070C39A /* GJTAppDelegate.h */,
 				6003F59D195388D20070C39A /* GJTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GJTViewController.h */,
-				6003F5A6195388D20070C39A /* GJTViewController.m */,
+				6003F5A5195388D20070C39A /* GJTAPPViewController.h */,
+				6003F5A6195388D20070C39A /* GJTAPPViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -175,16 +171,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				27016AD8891FF8F28CD50A7C /* GJTApplicationModule.podspec */,
-				4A92965415A5CA46A8F8CF2D /* README.md */,
-				14401BA863FB943B605A3223 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 		A2B8EC73B27B3AC87DA6A617 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +179,6 @@
 				9E0C5F5881E477B4FB497734 /* Pods-GJTApplicationModule_Tests.debug.xcconfig */,
 				CAF4CA86D1888691CA45C395 /* Pods-GJTApplicationModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +193,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				57FB84B458751C0C1276062E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -294,6 +281,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		57FB84B458751C0C1276062E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJTApplicationModule_Example/Pods-GJTApplicationModule_Example-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJTApplicationModule_Example/Pods-GJTApplicationModule_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		62E5408BB6AF5CDE3297C53B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,7 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GJTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GJTViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* GJTAPPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

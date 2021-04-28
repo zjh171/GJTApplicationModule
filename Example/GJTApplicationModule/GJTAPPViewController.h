@@ -1,5 +1,5 @@
 //
-//  GJTViewController.h
+//  GJTAPPViewController.h
 //  GJTApplicationModule
 //
 //  Created by zjh171 on 03/03/2021.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface GJTViewController : UIViewController
+@interface GJTAPPViewController : UIViewController
 
 @end

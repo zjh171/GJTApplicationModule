@@ -19,11 +19,11 @@
 
 +(void) setupHomeViewController {
     
-    Class homeTargetClass = NSClassFromString(@"GJTHomeViewController");
+    Class homeTargetClass = NSClassFromString(@"GJTAPPViewController");
     id homeVC = [[homeTargetClass alloc] init];
     GJTNavigationController *homeNavc1 = [[GJTNavigationController alloc] initWithRootViewController:homeVC];
     
-    Class targetClass = NSClassFromString(@"GJTMineViewController");
+    Class targetClass = NSClassFromString(@"GJTAPPViewController");
     id mineVC = [[targetClass alloc] init];
     GJTNavigationController *navc4 = [[GJTNavigationController alloc] initWithRootViewController:mineVC];
     UITabBarController *tabController = [[UITabBarController alloc] init];
