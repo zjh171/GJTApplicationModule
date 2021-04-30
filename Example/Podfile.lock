@@ -1,15 +1,16 @@
 PODS:
   - GJTAdditionKit (0.0.9)
-  - GJTAppLauncher (0.1.2)
-  - GJTApplicationModule (0.1.2):
+  - GJTAppLauncher (0.1.3)
+  - GJTApplicationModule (0.1.4):
     - GJTAppLauncher
-    - GJTGojitoMvvmKit
+    - GJTGojitoMvvmKit (>= 0.1.3)
+    - GJTMvvmKit
   - GJTControlsKit (0.0.8):
     - GJTAdditionKit
-  - GJTGojitoMvvmKit (0.1.2):
-    - GJTAdditionKit (~> 0.0.9)
+  - GJTGojitoMvvmKit (0.1.3):
+    - GJTAdditionKit (>= 0.0.9)
     - GJTControlsKit
-    - GJTMvvmKit (~> 0.0.6)
+    - GJTMvvmKit (> 0.0.6)
     - Masonry
   - GJTMvvmKit (0.0.7):
     - GJTAdditionKit
@@ -41,10 +42,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GJTAdditionKit: 0921c8a8124891fde5c9d5395f7f47216d28b42e
-  GJTAppLauncher: 5a0902092b7a23a143966db978265d1d6ade308a
-  GJTApplicationModule: 54a5f39c3635a64187723d7fd91485217122cb0d
+  GJTAppLauncher: 47ed4bb5c171f67f8f6c7a1681dc3c0b88612537
+  GJTApplicationModule: 40dfb2ea0df6d9f362c813965e7e4fd3582b070d
   GJTControlsKit: daf2dc8beec6fcb12a158c85b425af1a4512d4a1
-  GJTGojitoMvvmKit: 126b3d6b59280181fd182a3f8fafbb784a0b7fd4
+  GJTGojitoMvvmKit: 2bcf7af67a983a456b9d00e2df6d088c6d0bbbaf
   GJTMvvmKit: 17da248c4b5af09c82fdc2fb8498ea577e80dfe4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
