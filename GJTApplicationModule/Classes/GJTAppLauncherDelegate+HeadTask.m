@@ -20,7 +20,9 @@
 }
 
 +(void)setupDebugTool {
-    
+    Class GJTDebugerManager = NSClassFromString(@"GJTDebugerManager");
+    id debuger = [GJTDebugerManager performSelector:@selector(shareInstance)];
+    [debuger performSelector:@selector(install)];
 }
 
 @end
